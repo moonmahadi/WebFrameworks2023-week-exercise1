@@ -46,6 +46,9 @@ The final DOM structure in the browser should look like this:
 </div>
 ```
 
+The outcome should look like in the example image below:
+![Image of the application when completed](Example.png)
+
 Notice that you must implement the DOM structure using react components. You are not allowed to
 create the DOM structure in the App component. The App component should only render the question component
 and the question component should render the question and options.
