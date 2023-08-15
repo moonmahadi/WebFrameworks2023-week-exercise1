@@ -70,4 +70,4 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This will execute the validation tests for your work. You can run the tests locally to make sure your implementation works. The github classroom will run the same tests when you commit and push to your exercise repository. 
