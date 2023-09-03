@@ -1,6 +1,7 @@
 import "./App.css";
+import Question from './Question';
 
-function App() {
+function App({ question, options }) {
   /* Task is to create a react application to represent a questionnare application. In this exercise 
    we are going to create only part of the application. 
 
@@ -43,7 +44,15 @@ function App() {
    and the question component should render the question and options.
 */
 
-  return <div className="App"></div>;
+// const question = "What is the capital of Italy?";
+// const options = ["Turin", "Milan", "Rome"];
+
+return (
+  <div className="App">
+    <h1>Hello, React!</h1>
+    <Question question={question} options={options} />
+  </div>
+);
 }
 
 export default App;
